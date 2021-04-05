@@ -1,0 +1,21 @@
+{
+  posts(input: {
+    terms: {
+    }
+  }) {
+    results {
+      _id
+      title
+      pageUrl
+      postedAt
+      baseScore
+      voteCount
+      user {
+        username
+      }
+      allVotes {
+        voteType
+      }
+    }
+  }
+}
