@@ -6,7 +6,6 @@ Created on Wed Mar 31 14:04:56 2021
 """
 
 import pandas as pd
-import os
 
 # Read the file
 with open("query_results_posts.txt", "r", encoding='utf-8') as all_posts_file:
