@@ -45,6 +45,7 @@ def plot_nicer(ax):
         text.set_color("#676767")
     fig = plt.gcf()
     fig.set_size_inches(10,5)
+        
 
 
 # prep data
@@ -70,7 +71,6 @@ ax1.legend()
 ax1.set_ylabel("Relative Karma")
 ax1.set_xlabel("Date")
 ax1.set_ylim(0,36)
-
 plot_nicer(ax1)
 plt.savefig("karma.png", dpi=300, bbox_inches="tight")
 plt.close()
